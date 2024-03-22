@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 250, 250, 1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+  p {
+    margin: 1em 0;
+    color: darkgrey;
+    text-align: left;
+  }
+  
+  .seccion-principal {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(300, 3fr);
+    justify-items: center;
+    grid-gap:1px;
+  }
+  
+  .tarjeta {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000; 
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+  }
+  
+  .tarjeta img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .titulo h1 {
+    text-align: center;
+  }
+  
+  .titulo h2,
+  .titulo p {
+    text-align: center;
+    color: darkgrey;
+  }
+  
+  /* Posicionamiento de las tarjetas */
+  .seccion-principal .tarjeta1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  
+  .seccion-principal .tarjeta2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  
+  .seccion-principal .tarjeta3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  
+  .seccion-principal .tarjeta4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+  /*......................................................*/
+
+  .tarjeta1 {
+    border-top-color: rgba(234, 83, 83, 1); 
+    border-top-width: 10px;
+  }
+  .tarjeta2 {
+    border-top-color:  rgba(98, 218, 218, 1);
+    border-top-width: 10px;
+  }
+  .tarjeta3 {
+    border-top-color: rgba(252, 155, 29, 1);
+    border-top-width: 10px;
+  }
+  .tarjeta4 {
+    border-top-color: rgba(74, 157, 252, 1);
+    border-top-width: 10px;
+  }
+  
+  
